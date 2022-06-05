@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView_item"
+    android:clickable="true"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safa Babaei"
+            android:textSize="16sp"
+            >
+        </TextView>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:padding="16dp"
+            android:text="safa wassa chemist but she is programmer and she is sucessful and acgive so many knowldege during stay in canada for almost 2 yesr and she is bringing her parents as well"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
