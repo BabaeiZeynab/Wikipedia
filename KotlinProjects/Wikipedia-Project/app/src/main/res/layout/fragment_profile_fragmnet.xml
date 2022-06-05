@@ -1,0 +1,304 @@
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framLayoutProfile"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    >
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:backgroundTint="@color/white"
+
+        >
+
+        <Button
+            android:id="@+id/btn_back_profile"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_arrowleft"
+            android:text="Back"
+            android:textColor="#0B0B0B"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:paddingEnd="33dp"
+            >
+
+        </Button>
+
+
+        <com.google.android.material.card.MaterialCardView
+
+            android:layout_width="match_parent"
+            android:layout_height="191dp"
+            app:cardCornerRadius="0dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                app:cardCornerRadius="150dp">
+
+                <ImageView
+                    android:layout_width="270dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img_me">
+
+                </ImageView>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <ImageView
+                android:layout_width="732dp"
+                android:layout_height="243dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_java">
+
+            </ImageView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zeynab Babaei"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="5dp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Junior Java Developer at ITSIGN Solutions"
+            android:layout_marginStart="45dp"
+            android:textSize="16sp"
+            android:textColor="#595252"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seneca College"
+            android:layout_marginStart="45dp"
+            android:textSize="15sp"
+            android:textColor="#766C6C"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            >
+
+        </TextView>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Toronto, Ontario, Canada"
+              android:layout_marginStart="45dp"
+              android:textSize="15sp"
+              android:textColor="#766C6C"
+              android:textStyle="bold"
+              android:layout_marginTop="4dp"
+              >
+          </TextView>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text=".41 Connections"
+              android:layout_marginStart="18dp"
+              android:textSize="15sp"
+              android:textColor="#0B6ED0"
+              android:textStyle="bold"
+              android:padding="2dp"
+              android:layout_marginTop="4dp"
+              >
+          </TextView>
+
+      </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+         android:layout_gravity="center"
+           >
+
+           <com.google.android.material.card.MaterialCardView
+               android:id="@+id/experienceCradView"
+               android:layout_width="190dp"
+               android:layout_height="130dp"
+               app:cardCornerRadius="10dp"
+               app:strokeColor="#8EBDE4"
+               app:strokeWidth="2dp"
+               android:layout_marginRight="5dp"
+
+
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Experience"
+                   android:layout_gravity="center"
+                   android:textColor="@color/black"
+                   android:textSize="17sp"
+                   android:textStyle="bold"
+                   android:layout_marginBottom="15dp"
+                   >
+
+               </TextView>
+
+               <ImageView
+                   android:layout_width="38dp"
+                   android:layout_height="27dp"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20dp"
+                   android:src="@drawable/ic_expereince">
+
+               </ImageView>
+           </com.google.android.material.card.MaterialCardView>
+
+
+           <com.google.android.material.card.MaterialCardView
+               android:id="@+id/cardView_education"
+               android:layout_width="190dp"
+               android:layout_height="130dp"
+               app:cardElevation="2dp"
+               app:cardCornerRadius="10dp"
+               android:layout_marginLeft="4dp"
+               app:strokeColor="#8EBDE4"
+               app:strokeWidth="2dp"
+
+
+               >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Education"
+                   android:layout_gravity="center"
+                   android:textColor="@color/black"
+                   android:textSize="17sp"
+                   android:textStyle="bold"
+                   android:layout_marginBottom="15dp"
+                   >
+
+               </TextView>
+
+               <ImageView
+                   android:layout_width="40dp"
+                   android:layout_height="36dp"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20dp"
+                   android:src="@drawable/ic_education">
+
+               </ImageView>
+           </com.google.android.material.card.MaterialCardView>
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/CardView_Skills"
+                android:layout_width="190dp"
+                android:layout_height="130dp"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="10dp"
+                app:strokeColor="#8EBDE4"
+                app:strokeWidth="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skills"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"
+                    >
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/ic_skills">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/CardView_Certificate"
+                android:layout_width="190dp"
+                android:layout_height="130dp"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                app:strokeColor="#8EBDE4"
+                app:strokeWidth="2dp"
+
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Certifications"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"
+                    >
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/ic_certificate">
+
+                </ImageView>
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_ytrend"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/img_explore_main"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_apls">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+
+                android:id="@+id/txt_explore_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sans"
+                android:text="Bachalpsee"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/light_black"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_explore_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Bachsee is a lake"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <View
+                android:layout_width="76dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light_gray">
+
+            </View>
+
+            <TextView
+                android:id="@+id/txt_explore_details"
+                android:fontFamily="@font/sans"
+                android:lineSpacingExtra="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:text="
+Bachalpsee or Bachsee is a lake with an area of 8.06 ha (19.9 acres) close to the First (which can be reached  with a cable car) above Grindelwald in the Bernese Oberland,Switzerland.[1].The lake,
+ located at an elevation of 2,265 m (7,431 ft), is split by a natural dam, the smaller part of the lake being 6 m (20 ft) lower
+  Bachalpsee is a very easy hike with a fantastic view of snow-capped summits reflecting off the calm lake. The hiking is on
+   well-trodden paths with easy inclines except for the steep start of the trail. This hike is suitable for a picnic, so bring a mat and relax by the lake.
+"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

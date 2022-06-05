@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmnets.dialogWriterFragment">
+
+
+ <LinearLayout
+     android:layout_margin="20dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+
+
+     <com.google.android.material.textfield.TextInputLayout
+         android:id="@+id/textInputName"
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="40dp"
+         android:background="@color/white"
+         android:backgroundTint="@color/white"
+         android:hint="Name"
+         app:startIconDrawable="@drawable/ic_person">
+
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+         </com.google.android.material.textfield.TextInputEditText>
+
+
+     </com.google.android.material.textfield.TextInputLayout>
+
+     <com.google.android.material.textfield.TextInputLayout
+         android:id="@+id/textInputPhone"
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         android:layout_marginTop="20dp"
+
+         android:background="@color/white"
+         android:backgroundTint="@color/white"
+         android:hint="phone"
+         app:counterMaxLength="10"
+         app:startIconDrawable="@drawable/ic_phone">
+         >
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+         </com.google.android.material.textfield.TextInputEditText>
+
+
+     </com.google.android.material.textfield.TextInputLayout>
+
+     <com.google.android.material.textfield.TextInputLayout
+         android:id="@+id/textInputEmail"
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         android:layout_marginTop="20dp"
+
+         android:background="@color/white"
+         android:backgroundTint="@color/white"
+         android:hint="Email"
+         app:startIconDrawable="@drawable/ic_email">
+         >
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+         </com.google.android.material.textfield.TextInputEditText>
+
+
+     </com.google.android.material.textfield.TextInputLayout>
+
+     <com.google.android.material.textfield.TextInputLayout
+         android:id="@+id/textInputBirthday"
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         android:layout_marginTop="20dp"
+
+         android:background="@color/white"
+         android:backgroundTint="@color/white"
+         android:hint="Birthday"
+         app:startIconDrawable="@drawable/ic_calender">
+         >
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+         </com.google.android.material.textfield.TextInputEditText>
+
+
+     </com.google.android.material.textfield.TextInputLayout>
+
+     <com.google.android.material.textfield.TextInputLayout
+         android:id="@+id/textInputArea"
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         android:layout_marginTop="20dp"
+
+         android:hint="Area"
+         app:startIconDrawable="@drawable/ic_location">
+
+         <AutoCompleteTextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:backgroundTint="@color/white"
+             android:inputType="none"
+             android:textSize="17sp"
+
+             />
+
+     </com.google.android.material.textfield.TextInputLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         android:layout_marginTop="20dp"
+         android:orientation="horizontal">
+
+         <Button
+             android:id="@+id/btnSave"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:backgroundTint="#3AA03D"
+             android:text="Save"
+             android:textSize="15sp"
+             android:textStyle="bold">
+
+         </Button>
+
+         <Button
+             android:id="@+id/btnCancel"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:backgroundTint="#D22F2F"
+             android:text="Cancel"
+             android:textSize="15sp"
+             android:textStyle="bold">
+
+         </Button>
+
+     </LinearLayout>
+
+ </LinearLayout>
+
+
+
+
+
+
+</FrameLayout>

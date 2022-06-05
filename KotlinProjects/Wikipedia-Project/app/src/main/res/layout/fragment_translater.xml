@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".fragmnets.TranslaterFragment">
+
+    <LinearLayout
+
+        android:layout_width="360dp"
+        android:layout_height="600dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How To Become a Translator"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:text="By Indeed Editorial Team"
+            android:textColor="@color/light_black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="February 24, 2021">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_facebook"
+
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="14dp"
+                android:src="@drawable/ic_linkdein">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="14dp"
+                android:src="@drawable/ic_twitter">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ic_email2">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Translators are experts in communication and language who read, comprehend and convert written and spoken messages from one language to another. They provide translation services to tourists, businesses and expats. Learning more about what translators do and how to become one can help you determine if this is the right career path for you. In this article, we explain the primary responsibilities of translators and outline the steps to become a professional translator."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What does a translator do?"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="A translator is someone who assists with communication by converting written word from one language to another. They typically specialize in two languages—their native language and another chosen language—but may also specialize in a third or fourth language. A successful translator makes sure the message, ideas and facts remain accurate and the same throughout the process."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</FrameLayout>

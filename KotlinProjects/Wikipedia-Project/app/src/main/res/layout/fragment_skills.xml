@@ -1,0 +1,320 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:liftOnScroll="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_skillsphoto"
+                app:layout_collapseMode="parallax">
+
+            </ImageView>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Skills"
+                    android:textColor="@color/light_black"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+
+                    >
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="270dp"
+                    android:src="@drawable/ic_add">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_pen">
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                android:layout_marginTop="20dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Java"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="JavaScript"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="Kotlin (Android Studio)"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="C Programming"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="C++ Programming"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="SQL"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="Unix"
+                android:textSize="22sp">
+
+
+            </com.google.android.material.chip.Chip>
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="Automation Testing"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="SQL (DataBase)"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="AWS (Amazon Web Service)"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="GitHub"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="CSS"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="Spring Boot"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:textStyle="bold"
+                app:textStartPadding="15dp"
+                app:textEndPadding="15dp"
+                app:chipBackgroundColor="@color/light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="10dp"
+                android:text="Soft Skills"
+                android:textSize="22sp">
+
+            </com.google.android.material.chip.Chip>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawerLayoutMain"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools.context=".MainActivity"
+
+   >
+
+
+
+<!--    we are using tooBar inside AppBarLayout because we wanna do scrolling after that -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/AppBarMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+
+            app:popupTheme="@style/optionMenu"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:theme="@style/toolBarTheme"
+            app:titleTextAppearance="@style/toolBarTheme"
+            android:id="@+id/toolBarMain"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+
+        android:id="@+id/framMainContainer"
+        android:layout_marginBottom="56dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/bottomNavigation_main"
+        app:menu="@menu/menu_bottom_navigation">
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout
+        android:id="@+id/mainFramlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/white"
+        android:background="@color/white"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="30dp"
+            android:id="@+id/welcome2"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/anim_welcome2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="70dp"
+            android:id="@+id/lottie_main"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/anim_welcome"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="370dp">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+
+
+    </FrameLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationViewMain"
+        app:menu="@menu/menu_navigation_drawer"
+        app:headerLayout="@layout/header_main"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

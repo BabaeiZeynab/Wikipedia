@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_margin="16dp"
+    android:backgroundTint="@color/white"
+    tools:context=".fragmnets.CertificateFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Licenses &amp; certifications"
+            android:textColor="@color/light_black"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+        <ImageView
+            android:layout_width="37dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_add">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_pen">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+<!--    <View-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#CDCCCC"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginStart="20dp"-->
+
+<!--        >-->
+
+<!--    </View>-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="140dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="81dp"
+            android:padding="5dp"
+            android:src="@drawable/img_in">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:text="AWS Essential Training for Developers"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LinkdeIn"
+            android:textColor="@color/light_black"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="DateIssued May 2022 · No Expiration Date
+"
+            android:textColor="#716C6C"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_search"
+            android:drawableEnd="@drawable/ic_log"
+            android:drawableTint="#5B5757"
+            android:hint="Show credentials "
+            android:paddingStart="15dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="1dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="20dp"
+        android:background="#CDCCCC"
+
+        >
+
+    </View>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="380dp"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="81dp"
+            android:padding="5dp"
+            android:src="@drawable/img_u">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="20dp"
+            android:text="Java Programming Master Class\n Java 17"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="450dp"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Udemy"
+            android:textColor="@color/light_black"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="Java Programming MasterClass Java 17Java Programming MasterClass Java 17
+UdemyUdemy
+Issued Feb 2022 · No Expiration DateIssued Feb 2022"
+            android:textColor="#716C6C"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_search"
+            android:drawableEnd="@drawable/ic_log"
+            android:drawableTint="#5B5757"
+            android:hint="Show credentials "
+            android:paddingStart="15dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="1dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

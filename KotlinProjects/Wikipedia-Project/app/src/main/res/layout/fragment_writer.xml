@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/writermainLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".fragmnets.WriterFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Professional Photography in 1 year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+
+
+        <ImageView
+            android:src="@drawable/img_writer"
+          android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="270dp">
+
+        </ImageView>
+
+        <TextView
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:text="© Ksenia Usacheva – Spéos 2014"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+        <TextView
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="#C80E0E"
+            android:textSize="20sp"
+            android:text="Program presentation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="The intensive 32-week Professional Photography program is aimed at students with a strong work capacity. They will acquire all current skills and techniques within professional photography and put them into practice: photo reportage, studio photography, fashion photography, corporate photography, art direction, image management and publication After a first semester dedicated to the core skills, the students focus on their preferences (backed up by the advice of their instructors at Spéos): during the second semester, they specialize in studio photography or photo reportage.
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+
+                android:id="@+id/btnregisterNow"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="#D22F2F"
+                android:text="Register"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </Button>
+
+
+            <TextView
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textColor="#C80E0E"
+                android:textSize="15sp"
+                android:text="Register Now get 15% OFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</FrameLayout>

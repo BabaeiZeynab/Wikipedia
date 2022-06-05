@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expereince_Framlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".fragmnets.expereinceFragmnet">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:liftOnScroll="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1FCFC"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+
+            <LinearLayout
+                android:id="@+id/linearFram"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/ic_ex">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Experiences"
+                    android:textColor="@color/light_black"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="90dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Junior Java Developer"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="12dp"
+                android:text="ITSIGN Solutions Part-time Full-time"
+                android:textColor="@color/light_black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Oct 2021 - Present · 8 mosOct 2021 - Present · 8 mos\n Toronto, Ontario, Canada"
+                android:textColor="#706E6E"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="My Tasks"
+                android:textColor="@color/light_black"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_marginEnd="15dp"
+                android:text=" Collaborated with other developers on designing, developing, testing, and implementing.\n\n Working with Agile Developing Team\n\n Attended weekly team meetings with managers; provided drafts and status reports on project progress.\n\n Provide Web support and beneficial advice to clients.\n\n Maintaining and promoting a healthy codebase and ensuring high quality of products\n\n Technical design and leadership of features from inception to release\n\n Impact through your recommended modifications to processes and procedures, and directly contribute to standard methodologies, architecture, and implementation\n\n Contribute through participation in agile development of project timelines, implementation design specifications, system flow diagrams, documentation, testing, and ongoing support of systems
+Monitor production systems and debug issues as they arise"
+                android:textColor="@color/light_black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+
+
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:src="@drawable/ic_add"
+        android:backgroundTint="#00BCD4"
+        app:useCompatPadding="true"
+        app:layout_anchorGravity="bottom|end"
+        app:layout_anchor="@id/appBar_"
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

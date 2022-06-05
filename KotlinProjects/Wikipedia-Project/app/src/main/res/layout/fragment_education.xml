@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmnets.EducationFragment"
+    android:id="@+id/educationFraym"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:textStyle="bold"
+        android:textColor="@color/light_black"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        >
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="91dp"
+            android:src="@drawable/img_seneca">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seneca College"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diploma of Computre Science, Computre Programming"
+        android:textStyle="bold"
+        android:textColor="@color/light_black"
+        android:layout_marginTop="135dp"
+        android:textSize="17sp"
+        android:layout_marginLeft="130dp"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="130dp"
+        >
+
+        <TextView
+            android:layout_marginTop="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="May 2020 - August 2021"
+            android:textStyle="bold"
+            android:textColor="#706E6E"
+            android:textSize="17sp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade: 3.6"
+            android:textColor="@color/light_black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:lineSpacingExtra="2dp"
+            android:text="This two-year diploma program prepares you with the skills and knowledge to begin your career as a programmer. As a leader in developing relevant programs, we have the largest offering of computer studies programs in the province. Through a variety of practical and theoretical courses, you will gain skills in mobile development, web development and distributed programming techniques and database administration. You will also learn about security and a variety of operating systems including Windows, UNIX, Linux and IBM Business Computing. Graduates of this program will enter their industry with programming and communications skills suitable for employment."
+            android:textColor="@color/light_black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
